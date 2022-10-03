@@ -5,6 +5,7 @@
     margin : 0 auto;
     /* margin-right: 50px; */
     /* background-color: green; */
+    overflow: hidden;
 }
 
   .paybilltop{
