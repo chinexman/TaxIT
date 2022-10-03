@@ -1,0 +1,45 @@
+.sendfund{
+ position:relative;
+        width: 100%;
+        height: 500px;
+      
+        margin-bottom: 28px;
+        height: 450px;
+        z-index: -1;
+    background-color: #048002 !important;
+       
+   
+    
+      
+}
+
+.send{
+    width: 85%;
+    height: 522px;
+    margin : 0 auto;
+    border-radius: 10px;
+    /* margin-right: 50px; */
+    background-color: #048002;
+    background-image: url("../../assets/images/sendfund1.png");
+}
+
+.send-text{
+    position: absolute;
+    z-index: 4;
+ margin-top: 150px; 
+    margin-left:50px;
+    color:white;
+    font-size: 30px;
+
+    
+
+}
+.send-btn{
+    background-color: white !important;
+    color :#048002 !important;
+    border: none !important;
+    width: 100%;
+}
+.send-title{
+    font-weight: bold;
+}

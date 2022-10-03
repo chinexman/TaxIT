@@ -1,0 +1,42 @@
+
+.payment-content{
+    
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: flex-start;
+      margin-left: 20px;
+      margin-top: 55px;
+  }
+  
+  
+  .payment-icon{
+  /* width: 30px */
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+  }
+  
+  
+  .payment-title{
+    font-size: 20px;
+    /* width: 100%; */
+  }
+  
+  .payment-text{
+    font-size: 15px;
+    /* background-color: blue; */
+
+    /* word-break: break-all; */
+  }
+
+  .payment-card{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .payment-item{
+    height: 300px;
+    border: 0.5px solid #5CB23A;
+    ;
+  }

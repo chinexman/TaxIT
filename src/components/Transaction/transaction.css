@@ -1,0 +1,90 @@
+.paybill{
+    position: relative;
+    /* width: 100%; */
+    height: 700px;
+    margin : 0 auto;
+ 
+}
+.transaction-text{
+    margin-top: 60px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: flex-start;
+ color: #000000;
+  
+
+  }
+
+  .transaction-title{
+    color:#000000;
+    /* margin-left: -60px; */
+    /* padding: 0 40px; */
+    font-weight: bold;
+    font-size: 25px;
+   /* background-color:blue; */
+
+  }
+
+  .landingspace{
+    /* background-color: green; */
+    /* margin-left: 20px; */
+    padding-left: 40px;
+    @media (max-width: 500px) {
+       
+  
+      /* margin-top: 60px; */
+  
+  }
+  }
+
+  .transation-img{
+    position: relative;
+    width: 550px;
+    height: 700px;
+    background-color: #F1F1F1;
+    margin-left: 50px;
+  }
+
+  .coltransact{
+    background-color: blue;
+  }
+
+  .cover{
+    position: absolute;
+    z-index: 1;
+    margin-top: 80px;
+    margin-left: -180px;
+    height: 620px
+
+  }
+
+  .glass{
+    position: absolute;
+    z-index: 2;
+    margin-top: 85px;
+    margin-left: -170px;
+    height: 615px;
+    width: 350px;
+    
+
+  }
+  .hotmobile{
+    position: absolute;
+    z-index: 3;
+    margin-top: 93px;
+    margin-left: -160px;
+    height: 610px;
+    width: 326px;
+    border-radius: 30px;
+
+  }
+
+  .google{
+    margin-left: 20px;
+  }
+
+  .transact-btn{
+    background-color: #048002 !important;
+    border: none;
+  }
