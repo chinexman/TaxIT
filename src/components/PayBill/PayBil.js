@@ -1,5 +1,5 @@
-import React,{useState} from 'react'
-import {Row,Col,Container,Button} from 'reactstrap'
+import React, { useState } from 'react'
+import { Row, Col, Container, Button } from 'reactstrap'
 
 import paybil from "../../assets/images/paybill.png"
 import paybillcircle from "../../assets/images/paybill-circle.png"
@@ -14,163 +14,155 @@ import './paybil.css'
 
 function PayBil() {
 
-    const [buyairtimedata , setBuyAirtime]=useState(false)
+    const [buyairtimedata, setBuyAirtime] = useState(false)
     const [payingbill, setPayBill] = useState(true)
     const [moneytransfer, setMoneyTransfer] = useState(false)
-    const [ activePayBill, setActivePayBill]=useState(true)
-    const [ activeBuyAirtime, setActiveBuyAirtime]=useState(true)
-    const [ activeMoneyTransfer, setActiveMoneyTransfer]=useState(true)
-    const [ activePayToll, setActivePayToll]=useState(true)
-
-    const [ notactive, setNotActive]=useState(false)
-
-  return (
-    <section className="section " id="home" style={{backgroundColor: "#FFFFFF"}}>
 
 
-    <Container >
-      <Row className="align-items-center ">
-   
-        <Col lg="6" >
-            <div className='menu'>
-           <div className={`.item-pay ${payingbill ? "active":""}`} onClick={()=>{
-            setPayBill(true)
-            setBuyAirtime(false)
-            setMoneyTransfer(false)
+    const [notactive, setNotActive] = useState(false)
 
-           }}>
-                 <div className='item-text'>
-                <h3 className='paybill-title'>Pay bills</h3>
-                <p className='paybill-text'>Paying your bills has never been so easy.</p>
-                </div>
-           </div>
-           <div className={`item-pay ${buyairtimedata ? "active":""}`}
-   onClick={()=>{
-    setPayBill(false)
-    setBuyAirtime(true)
-    setMoneyTransfer(false)
-   }}>
-                 <div className='item-text'>
-                <h3 className='paybill-title'>Buy Airtime & Data</h3>
-                <p className='paybill-text'>Never get caught with low airtime and data again!</p>
-                </div>
-           </div>
-           <div className={`item-pay ${moneytransfer ? "active":""}`}
-            onClick={()=>{
-            setPayBill(false)
-            setBuyAirtime(false)
-            setMoneyTransfer(true)
-           }}>
-                 <div className='item-text'>
-                <h3 className='paybill-title'>Money Transfer</h3>
-                <p className='paybill-text'>Transferring money is now hassle-free.</p>
-                </div>
-           </div>
-           <div className={`item-pay ${payingbill ? "active":""}`}
-   onClick={()=>{
-    setPayBill(true)
-    setBuyAirtime(false)
-    setMoneyTransfer(false)
-   }}>
-                 <div className='item-text'>
-                <h3 className='paybill-title'>Pay Toll Fee</h3>
-                <p className='paybill-text'>Never worry about getting a toll ticket again.
-</p>
-                </div>
-           </div>
+    return (
+        <section className="section " id="home" style={{ backgroundColor: "#FFFFFF" }}>
 
-            </div>
-         
-        </Col>
 
-        {payingbill && <Col lg="6" md="6" sm="8" className="paybill">
-        <img
-        className=" paybilltop"
-        src={ paybilltop }
+            <Container >
+                <Row className="align-items-center ">
 
-        alt="Header Avatar"
-      />
+                    <Col lg="6" >
+                        <div className='menu'>
+                            <div className={`.item-pay ${payingbill ? "active" : ""}`} onClick={() => {
+                                setPayBill(true)
+                                setBuyAirtime(false)
+                                setMoneyTransfer(false)
 
- <img
-        className=" paybil"
-        src={ paybil }
+                            }}>
+                                <div className='item-text'>
+                                    <h3 className='paybill-title'>Pay bills</h3>
+                                    <p className='paybill-text'>Paying your bills has never been so easy.</p>
+                                </div>
+                            </div>
+                            <div className={`item-pay ${buyairtimedata ? "active" : ""}`}
+                                onClick={() => {
+                                    setPayBill(false)
+                                    setBuyAirtime(true)
+                                    setMoneyTransfer(false)
+                                }}>
+                                <div className='item-text'>
+                                    <h3 className='paybill-title'>Buy Airtime & Data</h3>
+                                    <p className='paybill-text'>Never get caught with low airtime and data again!</p>
+                                </div>
+                            </div>
+                            <div className={`item-pay ${moneytransfer ? "active" : ""}`}
+                                onClick={() => {
+                                    setPayBill(false)
+                                    setBuyAirtime(false)
+                                    setMoneyTransfer(true)
+                                }}>
+                                <div className='item-text'>
+                                    <h3 className='paybill-title'>Money Transfer</h3>
+                                    <p className='paybill-text'>Transferring money is now hassle-free.</p>
+                                </div>
+                            </div>
+                            <div className={`item-pay ${payingbill ? "active" : ""}`}
+                                onClick={() => {
+                                    setPayBill(true)
+                                    setBuyAirtime(false)
+                                    setMoneyTransfer(false)
+                                }}>
+                                <div className='item-text'>
+                                    <h3 className='paybill-title'>Pay Toll Fee</h3>
+                                    <p className='paybill-text'>Never worry about getting a toll ticket again.
+                                    </p>
+                                </div>
+                            </div>
 
-        alt="Header Avatar"
-      /> 
-       <img
-        className=" paybillcircle"
-        src={ paybillcircle }
+                        </div>
 
-        alt="Header Avatar"
-      /> 
-        <img
-        className="paybilloutcircle"
-        src={ paybilloutcircle }
+                    </Col>
 
-        alt="Header Avatar"
-      /> 
-        </Col>}
+                    {payingbill && <Col lg="6" md="6" sm="8" className="paybill">
+                        <img
+                            className=" paybilltop"
+                            src={paybilltop}
 
-{buyairtimedata && <Col lg="6" md="6" sm="8" className="paybill">
-        <img
-        className=" buyairtime"
-        src={ buyairtime }
+                            alt="Header Avatar"
+                        />
 
-        alt="Header Avatar"
-      />
+                        <img
+                            className=" paybil"
+                            src={paybil}
 
- {/* <img
-        className=" paybil"
-        src={ paybil }
+                            alt="Header Avatar"
+                        />
+                        <img
+                            className=" paybillcircle"
+                            src={paybillcircle}
 
-        alt="Header Avatar"
-      />  */}
-       <img
-        className=" paybillcircle"
-        src={ paybillcircle }
+                            alt="Header Avatar"
+                        />
+                        <img
+                            className="paybilloutcircle"
+                            src={paybilloutcircle}
 
-        alt="Header Avatar"
-      /> 
-        <img
-        className="paybilloutcircle"
-        src={ paybilloutcircle }
+                            alt="Header Avatar"
+                        />
+                    </Col>}
 
-        alt="Header Avatar"
-      /> 
-        </Col>}
+                    {buyairtimedata && <Col lg="6" md="6" sm="8" className="paybill">
+                        <img
+                            className=" buyairtime"
+                            src={buyairtime}
 
-        {moneytransfer && <Col lg="6" md="6" sm="8" className="paybill">
-        <img
-        className=" outerreport"
-        src={ outerreport }
+                            alt="Header Avatar"
+                        />
 
-        alt="Header Avatar"
-      />
 
- <img
-        className=" moneytran"
-        src={ moneytran }
+                        <img
+                            className=" paybillcircle"
+                            src={paybillcircle}
 
-        alt="Header Avatar"
-      /> 
-       <img
-        className=" paybillcircle"
-        src={ paybillcircle }
+                            alt="Header Avatar"
+                        />
+                        <img
+                            className="paybilloutcircle"
+                            src={paybilloutcircle}
 
-        alt="Header Avatar"
-      /> 
-        <img
-        className="paybilloutcircle"
-        src={ paybilloutcircle }
+                            alt="Header Avatar"
+                        />
+                    </Col>}
 
-        alt="Header Avatar"
-      /> 
-        </Col>}
-       
-      </Row>
-    </Container>
-  </section>
-  )
+                    {moneytransfer && <Col lg="6" md="6" sm="8" className="paybill">
+                        <img
+                            className=" outerreport"
+                            src={outerreport}
+
+                            alt="Header Avatar"
+                        />
+
+                        <img
+                            className=" moneytran"
+                            src={moneytran}
+
+                            alt="Header Avatar"
+                        />
+                        <img
+                            className=" paybillcircle"
+                            src={paybillcircle}
+
+                            alt="Header Avatar"
+                        />
+                        <img
+                            className="paybilloutcircle"
+                            src={paybilloutcircle}
+
+                            alt="Header Avatar"
+                        />
+                    </Col>}
+
+                </Row>
+            </Container>
+        </section>
+    )
 }
 
 export default PayBil

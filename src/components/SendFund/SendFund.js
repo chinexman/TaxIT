@@ -8,12 +8,7 @@ function SendFund() {
   return (
     <section>
         <div className="send">
-          {/* <img
-        className="sendfund"
-        src={ sendfund }
-
-        alt="Header Avatar"
-      /> */}
+       
       <div className='send-text'>
       <p className='send-title'>Send Funds</p>
       <p>Remit taxes</p>

@@ -15,34 +15,7 @@ import outerleftbottompic from "../../assets/images/outerleftbottompic.png"
 
 function Section() {
   return (
-  //   <section className="section ">
-
-   
-  //  <div className='container'>
-  //   {/* <Row>
-  //    <Col lg='6' md='6' sm='12'> */}
-  //   <div className='sectiontext'>
-  //   <p className='sectiontitle'>
-  //   Secure & seamless online transactions
-  //   </p>
-  //   <p>Providing you with the best online payment experience</p>
-  //   {/* <Button>
-  //   Create free account
-  //   </Button> */}
-  //   </div>
-
-  //    {/* </Col>
-  //   <Col lg='6' md='6' sm='12' style={{background:"red"}}  > */}
-
-  //   <div className='sectionimg'>
-  //   <img src={landing} width="100%"></img>
-  //   </div>
-  //     <p></p>
-  //   {/* </Col>
-
-  //   </Row> */}
-  //  </div>
-  //  </section>
+  
 
   <React.Fragment>
   <section className="section " id="home" style={{backgroundColor: "#060809"}}>
@@ -82,31 +55,7 @@ function Section() {
         alt="Header Avatar"
       />
 
-         {/*
-        <img
-      className=" leftbottompic"
-      src={ leftbottompic }
-
-      alt="Header Avatar"
-    /> 
-     <img
-    className=" rightpic"
-    src={ rightpic }
-
-    alt="Header Avatar"
-  /> 
-   <img
-  className=" leftpic"
-  src={ leftpic }
-
-  alt="Header Avatar"
-/> 
- <img
-        className=" bottompic"
-        src={ bottompic }
-
-        alt="Header Avatar"
-      />  */}
+       
        <img
       className=" photo"
       src={ photo }
@@ -118,12 +67,12 @@ function Section() {
       </Row>
     </Container>
   </section>
-  <section className="container2"  style={{backgroundColor:"#FFFFFF"}}>
+  {/* <section className="container2"  style={{backgroundColor:"#FFF000"}}>
         <Container >
          
            
         </Container>
-      </section>
+      </section> */}
 </React.Fragment>
   )
 }

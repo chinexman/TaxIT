@@ -1,11 +1,8 @@
 .paybill{
     position: relative;
-    /* width: 100%; */
     height: 700px;
-    margin : 0 auto;
-    /* margin-right: 50px; */
-    /* background-color: green; */
-    overflow: hidden;
+    margin : 0 auto;   
+    /* overflow: hidden; */
 }
 
   .paybilltop{
@@ -47,12 +44,6 @@
   .item-pay{
     border-left:5px solid #7c7474 ;
     border-bottom:none;
-
-    /* background-color: #FFFFFF !important; */
-    /* border-right: none;
-    border-top: none;
-    border-bottom: none; */
-    /* background-color: yellow; */
     border-radius: 0px;
     width: 100%;
 
@@ -65,13 +56,7 @@
 
   }
  
-   /* .item :hover{
-    background-color: #FFFFFF !important;
-  }
-  .btn-secondary:hover{
-    background-color: #FFFFFF !important;
-
-  } */
+ 
 
   .item :visited{
     background-color: blue;
@@ -80,7 +65,6 @@
 
   .paybill-title{
     color:#060809;
-    /* background-color: blue; */
   }
 
   .paybill-text{
@@ -101,7 +85,6 @@
     position:absolute;
     width:700px;
     z-index: 3;
-     /* margin-top: -80px; */
     margin-left: -380px;
   }
 

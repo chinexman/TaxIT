@@ -11,7 +11,6 @@
   
   
   .payment-icon{
-  /* width: 30px */
   height: 60px;
   width: 60px;
   margin-bottom: 10px;
@@ -20,14 +19,11 @@
   
   .payment-title{
     font-size: 20px;
-    /* width: 100%; */
   }
   
   .payment-text{
     font-size: 15px;
-    /* background-color: blue; */
-
-    /* word-break: break-all; */
+   
   }
 
   .payment-card{
@@ -39,4 +35,8 @@
     height: 300px;
     border: 0.5px solid #5CB23A;
     ;
+  }
+
+  .space{
+    margin-top: 400px;
   }

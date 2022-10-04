@@ -4,16 +4,13 @@
     align-items: center;
     padding: 18px 32px;
     background-color: rgb(10, 2, 2);
-    /* background-color: blue; */
 
 
 }
 
 .left-bar{
 width: 500px;
-/* display: flex;
-direction: row-reverse;
-margin-left: 20px; */
+
 }
 
 .right-bar{
@@ -24,7 +21,6 @@ margin-left: 20px; */
 
 .logo{
     height: 50px;
-    /* margin-top: 10px; */
 }
 
 .slach{
@@ -36,13 +32,12 @@ margin-left: 20px; */
 ul {
     list-style-type: none;
     
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   li {
     float: left;
-    /* background-color: red; */
-    /* margin-bottom: 3px solid #048002 ; */
+
 
   }
   li.li{
@@ -67,6 +62,5 @@ ul {
 
   }
   .link{
-    /* background-color:yellow; */
     border-bottom: 4px solid #048002;
   }

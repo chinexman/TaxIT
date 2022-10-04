@@ -6,6 +6,8 @@ import Individual_Section from './components/Individual-section/Section'
 import Business_Section from './components/Business-section/Section'
 import Payment from './components/PaymentTool/Payment'
 import PayBil from './components/PayBill/PayBil'
+import PayBilBusiness from './components/PayBill/PayBil'
+
 import Transaction from './components/Transaction/Transaction'
 import SendFund from './components/SendFund/SendFund'
 import Footer from './components/Footer/Footer'
