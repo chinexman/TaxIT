@@ -22,7 +22,6 @@
     padding-bottom: 80px;
     max-width: 100%;
 
-    /* overflow: hidden; */
 }
 
 .landing{
@@ -74,7 +73,6 @@ margin-left: 50px;
   @media (max-width: 500px) {
      
 
-    /* margin-top: 60px; */
 
 }
 }
