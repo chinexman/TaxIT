@@ -26,10 +26,10 @@ function Section() {
             <Col lg="6" className="landingspace">
               <div className="text-dark-50 landingtext">
                 <h2 className="text-white font-weight-semibold mb-3 section-title">
-                  Secure & seamlesss online transactions 
+                  Secure & seamless online transactions 
                 </h2>
                 <p className="text-white section-text ">
-                  Providing you with De best online payment experience
+                  Providing you with the best online payment experience
                 </p>
 
                 <div className="d-flex justify-content-center align-item-center gap-2 mt-4">
